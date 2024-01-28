@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 776351570}
-  - component: {fileID: 776351569}
+  - component: {fileID: 776351571}
   m_Layer: 0
   m_Name: LobbyUIManager
   m_TagString: Untagged
@@ -232,21 +232,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &776351569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776351568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3fd3f29ac7ac2548985ef1c34465cf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lobbyPanels:
-  - {fileID: 2619591791714982408}
-  - {fileID: 2619591790468334462}
 --- !u!4 &776351570
 Transform:
   m_ObjectHideFlags: 0
@@ -262,6 +247,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &776351571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776351568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a58c6db5577afa044a6b34917c110702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lobbyPanels:
+  - {fileID: 2619591791714982408}
+  - {fileID: 2619591790468334462}
+  loadingCanvasControllerPrefab: {fileID: 2285282630440650008, guid: fdc76c851afe5fe499ec80c0b2eb2252, type: 3}
 --- !u!1 &1123049610
 GameObject:
   m_ObjectHideFlags: 0
