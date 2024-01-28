@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LobbyPanelBase : MonoBehaviour
@@ -32,7 +30,6 @@ public class LobbyPanelBase : MonoBehaviour
 
     protected void ClosePanel()
     {
-        const string POP_OUT_CLIP_NAME = "OUT";
         this.gameObject.SetActive(false);
     }
 }
